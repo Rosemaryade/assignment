@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+svg {
+    width: 20px;
+    height: 20px;
+    margin-right: .8rem;
+}
+
+nav {
+    display: flex;
+    margin: 1.2rem 3rem;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    margin-left: 2.4rem;
+}
+
+.icons {
+    margin-left: auto;
+}
+
+.top {
+    display: flex;
+    margin: 3rem 3rem;
+    justify-content: space-between;
+}
+
+.left {
+    flex: 0.55;
+}
+
+.right {
+    /* flex: 0.55; */
+}
+
+.left h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.right #input {
+    border: none;
+    border-bottom: 1px solid black;
+    margin-left: .5rem;
+    width: 90px;
+    padding-bottom: .4rem;
+}
+
+.lists {
+    /* margin: 0rem 3rem; */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 220px;
+    height: 270px;
+    background: #ccc;
+    padding: .35rem;
+    border-radius: 5px;
+    margin-right: 1.1rem;
+    margin-bottom: 1.1rem;
+}
+
+.img {
+    width: 100%;
+    height: 155px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+.card__name {
+    display: flex;
+    justify-content: space-between;
+    margin: .5rem;
+    margin-top: .8rem;
+}
+
+.card__amount {
+    /* margin: top right bottom left; */
+    margin: 0 .5rem;
+}
+
+.card__bottom {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0.5rem;
+}
+
+.card__amount {
+    margin-bottom: 1.1rem;
+}
+

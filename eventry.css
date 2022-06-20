@@ -56,12 +56,13 @@ ul {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    
 }
 
 .card {
     width: 220px;
     height: 270px;
-    background: #ccc;
+    background: white;
     padding: .35rem;
     border-radius: 5px;
     margin-right: 1.1rem;
@@ -78,7 +79,7 @@ ul {
 img {
     height: 100%;
     width: 100%;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 
@@ -103,4 +104,7 @@ img {
 .card__amount {
     margin-bottom: 1.1rem;
 }
+
+
+
 
